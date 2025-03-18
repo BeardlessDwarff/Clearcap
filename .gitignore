@@ -76,3 +76,7 @@ $RECYCLE.BIN/
 Clearcap/Pdfgenerator/.vs/
 Pdfgenerator/.vs/
 
+
+.vs/
+
+Pdfgenerator/PdfGenerator/obj/Debug/
