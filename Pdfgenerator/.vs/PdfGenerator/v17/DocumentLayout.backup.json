@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8231D2C-3FF5-412B-AD4D-E33387A5875C}|PdfGenerator\\PdfGenerator.csproj|c:\\users\\nielsd\\source\\repos\\pdfgenerator\\pdfgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8231D2C-3FF5-412B-AD4D-E33387A5875C}|PdfGenerator\\PdfGenerator.csproj|solutionrelative:pdfgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8231D2C-3FF5-412B-AD4D-E33387A5875C}|PdfGenerator\\PdfGenerator.csproj|c:\\users\\nielsd\\source\\repos\\pdfgenerator\\pdfgenerator\\gradientbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8231D2C-3FF5-412B-AD4D-E33387A5875C}|PdfGenerator\\PdfGenerator.csproj|solutionrelative:pdfgenerator\\gradientbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8231D2C-3FF5-412B-AD4D-E33387A5875C}|PdfGenerator\\PdfGenerator.csproj|C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\pdfgenerator\\gradientdirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8231D2C-3FF5-412B-AD4D-E33387A5875C}|PdfGenerator\\PdfGenerator.csproj|solutionrelative:pdfgenerator\\gradientdirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 940,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "PdfGenerator\\Program.cs",
+              "ToolTip": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\Program.cs*",
+              "RelativeToolTip": "PdfGenerator\\Program.cs*",
+              "ViewState": "AgIAAGsAAADA/v///38wwIQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:39:26.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 28,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GradientBackground.cs",
+              "DocumentMoniker": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\GradientBackground.cs",
+              "RelativeDocumentMoniker": "PdfGenerator\\GradientBackground.cs",
+              "ToolTip": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\GradientBackground.cs",
+              "RelativeToolTip": "PdfGenerator\\GradientBackground.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:02:56.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GradientDirection.cs",
+              "DocumentMoniker": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\GradientDirection.cs",
+              "RelativeDocumentMoniker": "PdfGenerator\\GradientDirection.cs",
+              "ToolTip": "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\GradientDirection.cs",
+              "RelativeToolTip": "PdfGenerator\\GradientDirection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:10:03.368Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 400,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
