@@ -75,5 +75,4 @@ $RECYCLE.BIN/
 # Ignore Visual Studio .vs directory
 Clearcap/Pdfgenerator/.vs/
 Pdfgenerator/.vs/
-.vs/
 
