@@ -68,6 +68,12 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.temp
+*.log
+*.DS_Store
 
+# Ignore Visual Studio .vs directory
 Clearcap/Pdfgenerator/.vs/
 Pdfgenerator/.vs/
+.vs/
+
