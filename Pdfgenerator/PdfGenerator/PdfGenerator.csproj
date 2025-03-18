@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTranslator\IDataTranslationService.cs" />
     <Compile Include="Entities\BankAccount.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="GradientBackground.cs" />
@@ -72,6 +73,8 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DataTranslator\Person\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

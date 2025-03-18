@@ -6,7 +6,7 @@ namespace PdfGenerator;
 
 public abstract class PdfTemplate : IPdfTemplate
 {
-    public abstract void Generate(Document document, PdfWriter writer, List<Person> people);
+    public abstract void Generate(Document document, PdfWriter writer, string jsonData);
     protected abstract void AddLogo(Document doc);
 
     protected void AddCellToHeader(PdfPTable table, string text, BaseColor bgColor)

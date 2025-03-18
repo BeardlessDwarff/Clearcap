@@ -6,5 +6,5 @@ namespace PdfGenerator;
 
 public interface IPdfTemplate
 {
-    void Generate(Document document, PdfWriter writer, List<Person> people);
+    void Generate(Document document, PdfWriter writer, string jsonData);
 }

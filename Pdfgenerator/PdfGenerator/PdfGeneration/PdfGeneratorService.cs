@@ -7,11 +7,11 @@ namespace PdfGenerator;
 
 public class PdfGeneratorService : IPdfGeneratorService
 {
-    public void CreatePdf(List<Person> people, string filePath, IPdfTemplate template)
+    public void CreatePdf(string jsonData, string filePath, IPdfTemplate template)
     {
         Document document = new Document(PageSize.A4);
         PdfWriter writer = PdfWriter.GetInstance(document, new FileStream(filePath, FileMode.Create));
 
-        template.Generate(document, writer, people);
+        template.Generate(document, writer, jsonData);
     }
 }

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using Newtonsoft.Json;
 
 namespace PdfGenerator
 {
@@ -9,8 +10,11 @@ namespace PdfGenerator
     {
         private const string LogoPath = "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\logo.png";
 
-        public override void Generate(Document document, PdfWriter writer, List<Person> people)
+        public override void Generate(Document document, PdfWriter writer, string jsonData)
         {
+            var people = JsonConvert.DeserializeObject<List<Person>>(jsonData);
+
+
             writer.PageEvent = new PdfFooter();
 
             document.AddAuthor("Qii Report");

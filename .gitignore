@@ -80,3 +80,7 @@ Pdfgenerator/.vs/
 .vs/
 
 Pdfgenerator/PdfGenerator/obj/Debug/
+
+*.pdb
+
+*.exe
