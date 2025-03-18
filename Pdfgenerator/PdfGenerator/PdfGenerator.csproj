@@ -52,8 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\BankAccount.cs" />
+    <Compile Include="Entities\Person.cs" />
     <Compile Include="GradientBackground.cs" />
     <Compile Include="GradientDirection.cs" />
+    <Compile Include="PdfGeneration\Enums\GradientDirection.cs" />
+    <Compile Include="PdfGeneration\Extensions\GradientBackground.cs" />
+    <Compile Include="PdfGeneration\Extensions\PdfFooter.cs" />
+    <Compile Include="PdfGeneration\Extensions\RoundedCell.cs" />
+    <Compile Include="PdfGeneration\IPdfGeneratorService.cs" />
+    <Compile Include="PdfGeneration\PdfGeneratorService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,5 +69,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
