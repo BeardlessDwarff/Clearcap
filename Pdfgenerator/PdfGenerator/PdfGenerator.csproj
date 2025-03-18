@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-	<LangVersion>Latest</LangVersion>
+    <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,13 +56,15 @@
     <Compile Include="Entities\BankAccount.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="GradientBackground.cs" />
-    <Compile Include="GradientDirection.cs" />
     <Compile Include="PdfGeneration\Enums\GradientDirection.cs" />
     <Compile Include="PdfGeneration\Extensions\GradientBackground.cs" />
     <Compile Include="PdfGeneration\Extensions\PdfFooter.cs" />
     <Compile Include="PdfGeneration\Extensions\RoundedCell.cs" />
     <Compile Include="PdfGeneration\IPdfGeneratorService.cs" />
     <Compile Include="PdfGeneration\PdfGeneratorService.cs" />
+    <Compile Include="PdfGeneration\Templates\IPdfTemplate.cs" />
+    <Compile Include="PdfGeneration\Templates\PdfTemplate.cs" />
+    <Compile Include="PdfGeneration\Templates\TestTemplate\TestPdfTemplate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

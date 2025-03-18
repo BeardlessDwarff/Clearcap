@@ -4,5 +4,5 @@ namespace PdfGenerator;
 
 public interface IPdfGeneratorService
 {
-    void CreatePdf(List<Person> people, string filePath, string logoPath);
+    void CreatePdf(List<Person> people, string filePath, IPdfTemplate template);
 }
