@@ -1,0 +1,97 @@
+{
+  "User": {
+    "Identity": {
+      "FirstName": "Andre",
+      "MiddleName": "Van der",
+      "LastName": "Kamp",
+      "BirthDate": "1978-03-01",
+      "Nationality": "Nederlands"
+    },
+    "ContactDetails": {
+      "Email": "test@email.com",
+      "PhoneNumber": "0612345678"
+    },
+    "Address": {
+      "Street": "Eusebiusstraat",
+      "Housenumber": "1",
+      "PostalCode": "6846XX",
+      "City": "Arnhem"
+    },
+    "Household": {
+      "MaritalStatus": "Getrouwd",
+      "RegisteredPartner": 1,
+      "ResidentChildren": 2
+    }
+  },
+  "Financials": {
+    "besteedbaar_inkomen_per_maand": 101,
+    "StartDate": "2024-12-01",
+    "EndDate": "2025-02-28",
+    "Income": {
+      "loondienst": 1565,
+      "toeslagen": 366,
+      "overige_inkomsten": 156,
+      "totaal": 2322,
+      "maandelijks_totaal": {
+        "december_24": 2586,
+        "januari_25": 2645,
+        "februari_25": 2610
+      }
+    },
+    "Expenses": {
+      "vast": 1100,
+      "variabel": 655,
+      "vrij": 466,
+      "totaal": 2221,
+      "maandelijks_totaal": {
+        "december_24": 2586,
+        "januari_25": 2645,
+        "februari_25": 2610
+      }
+    }
+  },
+  "IncomeSpecification": {
+    "periode": "2025-02",
+    "loondienst": {
+      "sv_loon": 1800,
+      "werkgever": "Werk B.V.",
+      "type_inkomen": "Loondienst",
+      "type_verloning": "Maandelijks",
+      "netto_inkomen": 1565
+    },
+    "uitkering": "nvt",
+    "alimentatie": "nvt",
+    "toeslagen": {
+      "huurtoeslag": 256,
+      "zorgtoeslag": 110
+    },
+    "overige_inkomsten": {
+      "cash_storting": 456
+    }
+  },
+  "ExpenditureSpecification": {
+    "periode": "2025-02",
+    "vast": {
+      "wonen": 1800,
+      "energie_water": 1565,
+      "gemeentelijke_belastingen": 1565,
+      "communicatie_media": 1565,
+      "verzekeringen": 1565
+    },
+    "variabel": {},
+    "vrij": "nvt",
+    "overig": {
+      "kinderopvang": 256,
+      "vervoer": 110,
+      "schulden_leningen": 110,
+      "alimentatie": 110
+    },
+    "toeslagen": {
+      "huurtoeslag": 256,
+      "zorgtoeslag": 110
+    },
+    "overige_inkomsten": {
+      "cash_storting": 456
+    }
+  }
+}

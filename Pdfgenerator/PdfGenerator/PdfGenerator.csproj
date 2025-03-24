@@ -55,6 +55,24 @@
   <ItemGroup>
     <Compile Include="DataTranslator\IDataTranslationService.cs" />
     <Compile Include="Entities\BankAccount.cs" />
+    <Compile Include="Entities\Hafkamp\Address.cs" />
+    <Compile Include="Entities\Hafkamp\ContactDetails.cs" />
+    <Compile Include="Entities\Hafkamp\DataHafkamp.cs" />
+    <Compile Include="Entities\Hafkamp\Expenses.cs" />
+    <Compile Include="Entities\Hafkamp\Financials.cs" />
+    <Compile Include="Entities\Hafkamp\Household.cs" />
+    <Compile Include="Entities\Hafkamp\Identity.cs" />
+    <Compile Include="Entities\Hafkamp\Income.cs" />
+    <Compile Include="Entities\Hafkamp\IncomeSpecification.cs" />
+    <Compile Include="Entities\Hafkamp\Loondienst.cs" />
+    <Compile Include="Entities\Hafkamp\MaandelijksTotaal.cs" />
+    <Compile Include="Entities\Hafkamp\Overig.cs" />
+    <Compile Include="Entities\Hafkamp\OverigeInkomsten.cs" />
+    <Compile Include="Entities\Hafkamp\Toeslagen.cs" />
+    <Compile Include="Entities\Hafkamp\ExpenditureSpecification.cs" />
+    <Compile Include="Entities\Hafkamp\User.cs" />
+    <Compile Include="Entities\Hafkamp\Variabel.cs" />
+    <Compile Include="Entities\Hafkamp\Vast.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="GradientBackground.cs" />
     <Compile Include="PdfGeneration\Enums\GradientDirection.cs" />
@@ -72,6 +90,8 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <EmbeddedResource Include="TestData\hafkampdatatest1.json" />
+    <EmbeddedResource Include="TestData\people.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataTranslator\Person\" />
