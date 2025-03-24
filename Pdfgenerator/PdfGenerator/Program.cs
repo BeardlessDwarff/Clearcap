@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
+using PdfGenerator.PdfGeneration.Templates.HafkampTemplateTest1;
 
 namespace PdfGenerator;
 
@@ -18,8 +19,13 @@ class Program
         var dataHafkamp = JsonConvert.DeserializeObject<DataHafkamp>(jsonDataHafkamp);
 
         IPdfGeneratorService pdfGeneratorService = new PdfGeneratorService();
-        IPdfTemplate template = new TestPdfTemplate();
-        pdfGeneratorService.CreatePdf(peopleJson, "peopleTestData.pdf", template);
+
+        IPdfTemplate hafkampTemplate = new HafkampTemplateTest1();
+        pdfGeneratorService.CreatePdf(jsonDataHafkamp, "hafkampTestData1.pdf", hafkampTemplate);
+
+        //IPdfTemplate template = new TestPdfTemplate();
+        //pdfGeneratorService.CreatePdf(peopleJson, "peopleTestData.pdf", template);
+
 
 
         Console.WriteLine("PDF created successfully!");

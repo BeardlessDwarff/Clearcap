@@ -81,6 +81,7 @@
     <Compile Include="PdfGeneration\Extensions\RoundedCell.cs" />
     <Compile Include="PdfGeneration\IPdfGeneratorService.cs" />
     <Compile Include="PdfGeneration\PdfGeneratorService.cs" />
+    <Compile Include="PdfGeneration\Templates\HafkampTemplateTest1\HafkampTemplateTest1.cs" />
     <Compile Include="PdfGeneration\Templates\IPdfTemplate.cs" />
     <Compile Include="PdfGeneration\Templates\PdfTemplate.cs" />
     <Compile Include="PdfGeneration\Templates\TestTemplate\TestPdfTemplate.cs" />

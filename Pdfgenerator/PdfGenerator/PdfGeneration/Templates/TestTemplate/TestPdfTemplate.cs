@@ -8,7 +8,7 @@ namespace PdfGenerator
 {
     public class TestPdfTemplate : PdfTemplate
     {
-        private const string LogoPath = "C:\\Users\\nielsD\\source\\repos\\PdfGenerator\\PdfGenerator\\logo.png";
+        private const string LogoPath = "";
 
         public override void Generate(Document document, PdfWriter writer, string jsonData)
         {
@@ -17,7 +17,7 @@ namespace PdfGenerator
 
             writer.PageEvent = new PdfFooter();
 
-            document.AddAuthor("Qii Report");
+            document.AddAuthor("ClearCap Report");
             document.SetMargins(40, 40, 40, 60);
 
             document.Open();
@@ -42,7 +42,7 @@ namespace PdfGenerator
 
             gradient.ApplyGradient(writer.DirectContentUnder, document.PageSize);
 
-            AddLogo(document);
+            //AddLogo(document);
 
             Font titleFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 18, new BaseColor(18, 26, 42)); // Dark Blue
             Paragraph title = new Paragraph("User & Bank Report", titleFont);
